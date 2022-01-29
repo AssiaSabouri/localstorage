@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/gestionvoiture.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Gestion voiture</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="titre col-lg-12"><h1>Gestion des voitures</h1></div>  
+            <div class="para col-lg-12" contenteditable id="add"></div>  
+            <div class="but col-lg-8 offset-lg-2">
+                <button id="add_task" class="btn btn-success btn-block"  type="button">Ajouter voiture</button>
+             </div>
+            <div class="gestion">
+                <nav class="navbar navbar-light bg-light">
+                      <a class="navbar-brand">Gestion</a>
+                      <form class="d-flex">
+                        <input class="form-control me-2" id="ss" type="search" placeholder="Search" aria-label="Search">                   
+                       </form>
+                  </nav>
+                </div>
+            <div>
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Voiture</th>
+                        <th scope="col">Opération</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+        </div>
+    <div>
+</body>
+<script src="js/gestionvoiture.js"></script>
+</html>  
